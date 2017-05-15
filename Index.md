@@ -1,3 +1,8 @@
+# Machine Learning Experiments
+Compilation of papers, blog posts, repositories, and other experiments from around the Internet.
+I put this together mostly to reduce the amount of open tabs I have in Chrome and so that I can
+visit whenever I have free time to experiment. 
+
 -------------------------------------------------------------------------------
 ## Machine Learning for Software Engineers
 A multi-month study plan for going from a mobile developer to machine learning engineer.
