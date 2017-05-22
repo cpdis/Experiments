@@ -1,7 +1,7 @@
 # Machine Learning Experiments
 Compilation of papers, blog posts, repositories, and other experiments from around the Internet.
 I put this together mostly to reduce the amount of open tabs I have in Chrome and so that I can
-visit whenever I have free time to experiment. 
+visit whenever I have free time to experiment.
 
 -------------------------------------------------------------------------------
 ## Machine Learning for Software Engineers
@@ -144,3 +144,32 @@ https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python?utm_content=buff
 Description
 
 https://github.com/aaron-xichen/pytorch-playground?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue
+-------------------------------------------------------------------------------
+## Building AnswerBot with Keras and TensorFlow
+With the recent advances into neural networks capabilities to process text and audio data we are very close creating a natural human assistant. TensorFlow from Google is one of the most popular neural network library, and using Keras you can simplify TensorFlow usage. TensorFlow brings amazing capabilities into natural language processing (NLP) and using deep learning, we are expecting bots to become even more smarter, closer to human experience. In this technical discussion, we will explore NLP methods in TensorFlow with Keras to create answer bot, ready to answers specific technical questions. You will learn how to use TensorFlow to train an answer bot, with specific technical questions and use various AWS services to deploy answer bot in cloud.
+
+https://github.com/Avkash/mldl/tree/master/tensorbeat-answerbot
+-------------------------------------------------------------------------------
+## 6.S094: Deep Learning for Self-Driving Cars
+This class is an introduction to the practice of deep learning through the applied theme of building a self-driving car. It is open to beginners and is designed for those who are new to machine learning, but it can also benefit advanced researchers in the field looking for a practical overview of deep learning methods and their application.
+
+http://selfdrivingcars.mit.edu
+-------------------------------------------------------------------------------
+## Dask-SearchCV: Distributed hyperparameter optimization with Scikit-Learn
+Last summer I spent some time experimenting with combining dask and scikit-learn (chronicled in this series of blog posts). The library that work produced was extremely alpha, and nothing really came out of it. Recently I picked this work up again, and am happy to say that we now have something I can be happy with. This involved a few major changes:
+
+- A sharp reduction in scope. The previous rendition tried to implement both model and data parallelism. Not being a machine-learning expert, the data parallelism was implemented in a less-than-rigorous manner. The scope is now pared back to just implementing hyperparameter searches (model parallelism), which is something we can do well.
+- Optimized graph building. Turns out when people are given the option to run grid search across a cluster, they immediately want to scale up the grid size. At the cost of more complicated code, we can handle extremely large grids (e.g. 500,000 candidates now takes seconds for the graph to build, as opposed to minutes before). It should be noted that for grids this size, an active search may perform significantly better. Relevant issue: # 29.
+- Increased compatibility with Scikit-Learn. Now with only a few exceptions, the implementations of GridSearchCV and RandomizedSearchCV should be drop-ins for their scikit-learn counterparts.
+
+http://www.kdnuggets.com/2017/05/dask-searchcv-distributed-hyperparameter-optimization-scikit-learn.html?utm_content=buffer489b5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+-------------------------------------------------------------------------------
+## Kernelized Sorting
+Object matching is a fundamental operation in data analysis. It typically requires the definition of a similarity measure between the classes of objects to be matched. Instead, we develop an approach which is able to perform matching by requiring a similarity measure only within each of the classes. This is achieved by maximizing the dependency between matched pairs of observations by means of the Hilbert Schmidt Independence Criterion. This problem can be cast as one of maximizing a quadratic assignment problem with special structure and we present a simple algorithm for finding a locally optimal solution.
+
+http://users.sussex.ac.uk/%7Enq28/kernelized_sorting.html
+-------------------------------------------------------------------------------
+## Quick Draw! The Data
+Over 15 million players have contributed millions of drawings playing Quick, Draw! These doodles are a unique data set that can help developers train new neural networks, help researchers see patterns in how people around the world draw, and help artists create things we haven’t begun to think of. That’s why we’re open-sourcing them, for anyone to play with.
+
+https://quickdraw.withgoogle.com/data
