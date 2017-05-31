@@ -173,3 +173,22 @@ http://users.sussex.ac.uk/%7Enq28/kernelized_sorting.html
 Over 15 million players have contributed millions of drawings playing Quick, Draw! These doodles are a unique data set that can help developers train new neural networks, help researchers see patterns in how people around the world draw, and help artists create things we haven’t begun to think of. That’s why we’re open-sourcing them, for anyone to play with.
 
 https://quickdraw.withgoogle.com/data
+-------------------------------------------------------------------------------
+## ML Algorithms
+Minimal and clean examples of machine learning algorithms.
+
+https://github.com/rushter/MLAlgorithms
+-------------------------------------------------------------------------------
+## Face Classification and Detection
+Real-time face detection and emotion/gender classification using fer2013/IMDB datasets with a keras CNN model and openCV.
+
+https://github.com/oarriaga/face_classification
+-------------------------------------------------------------------------------
+## Convolutional Methods for Text
+- RNNS work great for text but convolutions can do it faster
+- Any part of a sentence can influence the semantics of a word. For that reason we want our network to see the entire input at once
+- Getting that big a receptive can make gradients vanish and our networks fail
+- We can solve the vanishing gradient problem with DenseNets or Dilated Convolutions
+- Sometimes we need to generate text. We can use “deconvolutions” to generate arbitrarily long outputs.
+
+https://medium.com/@TalPerry/convolutional-methods-for-text-d5260fd5675f
