@@ -192,3 +192,12 @@ https://github.com/oarriaga/face_classification
 - Sometimes we need to generate text. We can use “deconvolutions” to generate arbitrarily long outputs.
 
 https://medium.com/@TalPerry/convolutional-methods-for-text-d5260fd5675f
+-------------------------------------------------------------------------------
+## Getting started with ARKit on iOS 11
+Apple’s new ARKit APIs make it possible to build compelling augmented reality apps that can run on iOS devices with A9 or A10 processors.
+
+The potential to build the next Pokemon Go has many folk without much iOS/Unity development experience looking to get started — and while Apple’s new capabilities are truly impressive and the WWDC session on the APIs is very informative, the written documentation for ARKit is very sparse.
+
+To help others get to experimenting, this guide walks through installing the iOS 11 beta on your phone or tablet, building a basic ARKit demo, and setting up Unity to build more advanced apps and games.
+
+https://github.com/kylebrussell/ARoniOS/wiki/Getting-started-with-ARKit-on-iOS-11
