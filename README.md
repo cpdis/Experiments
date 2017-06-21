@@ -68,129 +68,149 @@ https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Deep Reinforcement Learning: Pong from Pixels
+This is a long overdue blog post on Reinforcement Learning (RL). RL is hot! You may have noticed that computers can now automatically learn to play ATARI games (from raw game pixels!), they are beating world champions at Go, simulated quadrupeds are learning to run and leap, and robots are learning how to perform complex manipulation tasks that defy explicit programming. It turns out that all of these advances fall under the umbrella of RL research. I also became interested in RL myself over the last ~year: I worked through Richard Sutton’s book, read through David Silver’s course, watched John Schulmann’s lectures, wrote an RL library in Javascript, over the summer interned at DeepMind working in the DeepRL group, and most recently pitched in a little with the design/development of OpenAI Gym, a new RL benchmarking toolkit. So I’ve certainly been on this funwagon for at least a year but until now I haven’t gotten around to writing up a short post on why RL is a big deal, what it’s about, how it all developed and where it might be going.
 
 https://karpathy.github.io/2016/05/31/rl/
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## An introduction to Generative Adversarial Networks (with code in TensorFlow)
+There has been a large resurgence of interest in generative models recently (see this blog post by OpenAI for example). These are models that can learn to create data that is similar to data that we give them. The intuition behind this is that if we can get a model to write high-quality news articles for example, then it must have also learned a lot about news articles in general. Or in other words, the model should also have a good internal representation of news articles. We can then hopefully use this representation to help us with other related tasks, such as classifying news articles by topic.
+
+Actually training models to create data like this is not easy, but in recent years a number of methods have started to work quite well. One such promising approach is using Generative Adversarial Networks (GANs). The prominent deep learning researcher and director of AI research at Facebook, Yann LeCun, recently cited GANs as being one of the most important new developments in deep learning:
+
+>There are many interesting recent development in deep learning…The most important one, in my opinion, is adversarial training (also called GAN for Generative Adversarial Networks). This, and the variations that are now being proposed is the most interesting idea in the last 10 years in ML, in my opinion.
+ 
+The rest of this post will describe the GAN formulation in a bit more detail, and provide a brief example (with code in TensorFlow) of using a GAN to solve a toy problem.
 
 http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## A step-by-step guide to building a simple chess AI
+Let’s explore some basic concepts that will help us create a simple chess AI:
+- move-generation
+- board evaluation
+- minimax
+- and alpha beta pruning.
+
+At each step, we’ll improve our algorithm with one of these time-tested chess-programming techniques.
 
 https://medium.freecodecamp.com/simple-chess-ai-step-by-step-1d55a9266977
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Deep Photo Style Transfer
+This paper introduces a deep-learning approach to photographic style transfer that handles a large variety of image content while faithfully transferring the reference style. Our approach builds upon the recent work on painterly transfer that separates style from the content of an image by considering different layers of a neural network. However, as is, this approach is not suitable for photorealistic style transfer. Even when both the input and reference images are photographs, the output still exhibits distortions reminiscent of a painting. Our contribution is to constrain the transformation from the input to the output to be locally affine in colorspace, and to express this constraint as a custom fully differentiable energy term. We show that this approach successfully suppresses distortion and yields satisfying photorealistic style transfers in a broad variety of scenarios, including transfer of the time of day, weather, season, and artistic edits.
 
 https://github.com/luanfujun/deep-photo-styletransfer?utm_content=buffer39dd6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## The Unreasonable Effectiveness of Recurrent Neural Networks
+There’s something magical about Recurrent Neural Networks (RNNs). I still remember when I trained my first recurrent network for Image Captioning. Within a few dozen minutes of training my first baby model (with rather arbitrarily-chosen hyperparameters) started to generate very nice looking descriptions of images that were on the edge of making sense. Sometimes the ratio of how simple your model is to the quality of the results you get out of it blows past your expectations, and this was one of those times. What made this result so shocking at the time was that the common wisdom was that RNNs were supposed to be difficult to train (with more experience I’ve in fact reached the opposite conclusion). Fast forward about a year: I’m training RNNs all the time and I’ve witnessed their power and robustness many times, and yet their magical outputs still find ways of amusing me. This post is about sharing some of that magic with you.
 
 https://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Machine Learning is Fun! An Introduction to Machine Learning
+This guide is for anyone who is curious about machine learning but has no idea where to start. I imagine there are a lot of people who tried reading the wikipedia article, got frustrated and gave up wishing someone would just give them a high-level explanation. That’s what this is.
+
+The goal is be accessible to anyone — which means that there’s a lot of generalizations. But who cares? If this gets anyone more interested in ML, then mission accomplished.
 
 https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Learning AI if You Suck at Math — P5 — Deep Learning and Convolutional Neural Nets in Plain English!
+Today, we’re going to write our own Python image recognition program.
+
+To do that, we’ll explore a powerful deep learning architecture called a deep convolutional neural network (DCNN).
 
 https://hackernoon.com/learning-ai-if-you-suck-at-math-p5-deep-learning-and-convolutional-neural-nets-in-plain-english-cda79679bbe3
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Caption this, with Tensorflow
+In this article, we will walk through an intermediate-level tutorial on how to train an image caption generator on the Flickr30k data set using an adaptation of Google’s Show and Tell model. We use the TensorFlow framework to construct, train, and test our model because it’s relatively easy to use and has a growing online community.
 
 https://www.oreilly.com/learning/caption-this-with-tensorflow
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Big Picture Machine Learning: Classifying Text with Neural Networks and TensorFlow
+In this article, we’ll create a machine learning model to classify texts into categories. We’ll cover the following topics:
+1. How TensorFlow works
+2. What is a machine learning model
+3. What is a Neural Network
+4. How the Neural Network learns
+5. How to manipulate data and pass it to the Neural Network inputs
+6. How to run the model and get the prediction results
 
 https://medium.freecodecamp.com/big-picture-machine-learning-classifying-text-with-neural-networks-and-tensorflow-d94036ac2274
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Recursive Neural Networks with PyTorch
+This post walks through the PyTorch implementation of a recursive neural network with a recurrent tracker and TreeLSTM nodes, also known as SPINN—an example of a deep learning model from natural language processing that is difficult to build in many popular frameworks. The implementation I describe is also partially batched, so it’s able to take advantage of GPU acceleration to run significantly faster than versions that don’t use batching.
 
 https://devblogs.nvidia.com/parallelforall/recursive-neural-networks-pytorch/
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
-
-https://github.com/mrzl/ofxDarknet
-
--------------------------------------------------------------------------------
-
-## Project Description
-Description
+## Best Practices for Applying Deep Learning to Novel Applications
+This report is targeted to groups who are subject matter experts in their application but deep learning novices. It contains practical advice for those interested in testing the use of deep neural networks on applications that are novel for deep learning. We suggest making your project more manageable by dividing it into phases. For each phase this report contains numerous recommendations and insights to assist novice practitioners.
 
 https://arxiv.org/ftp/arxiv/papers/1704/1704.01568.pdf
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Creating a Modern OCR Pipeline Using Computer Vision and Deep Learning
+In this post we will take you behind the scenes on how we built a state-of-the-art Optical Character Recognition (OCR) pipeline for our mobile document scanner. We used computer vision and deep learning advances such as bi-directional Long Short Term Memory (LSTMs), Connectionist Temporal Classification (CTC), convolutional neural nets (CNNs), and more. In addition, we will also dive deep into what it took to actually make our OCR pipeline production-ready at Dropbox scale.
 
 https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## EmojiIntelligence
+Do you want to teach your machine emojis? 😏 
+
+I created a neural network entirely in Swift. This is a demo to demonstrate what is possible to solve. 
 
 https://github.com/Luubra/EmojiIntelligence?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## BEGAN: Boundary Equilibrium Generative Adversarial Networks
+Implementation of Google Brain's BEGAN: Boundary Equilibrium Generative Adversarial Networks in Tensorflow. 
+
+BEGAN is the state of the art when it comes to generate realistic faces.
 
 https://github.com/Heumi/BEGAN-tensorflow?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Medical Image Analysis with Deep Learning — I
+Analyzing images and videos, and using them in various applications such as self driven cars, drones etc. with underlying deep learning techniques has been the new research frontier. The recent research papers such as “A Neural Algorithm of Artistic Style”, show how a styles can be transferred from an artist and applied to an image, to create a new image. Other papers such as “Generative Adversarial Networks” (GAN) and “Wasserstein GAN” have paved the path to develop models that can learn to create data that is similar to data that we give them. Thus opening up the world to semi-supervised learning and paving the path to a future of unsupervised learning.
+While these research areas are still on the generic images, our goal is to use these research into medical images to help healthcare. We need to start with some basics. In this article, I start with basics of image processing, basics of medical image format data and visualize some medical data. In the next article I will deep dive into some convolutional neural nets and use them with Keras for predicting lung cancer.
 
 https://medium.com/@taposhdr/medical-image-analysis-with-deep-learning-i-23d518abf531
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## Kalman and Bayesian Filters in Python
+Kalman Filter book using Jupyter Notebook. Focuses on building intuition and experience, not formal proofs. Includes Kalman filters,extended Kalman filters, unscented Kalman filters, particle filters, and more. All exercises include solutions.
 
-https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python?utm_content=buffer4c85c&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
 
 -------------------------------------------------------------------------------
 
-## Project Description
-Description
+## PyTorch Playground
+Base pretrained models and datasets in pytorch (MNIST, SVHN, CIFAR10, CIFAR100, STL10, AlexNet, VGG16, VGG19, ResNet, Inception, SqueezeNet).
 
-https://github.com/aaron-xichen/pytorch-playground?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue
+https://github.com/aaron-xichen/pytorch-playground
 
 -------------------------------------------------------------------------------
 
