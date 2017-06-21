@@ -201,3 +201,12 @@ The potential to build the next Pokemon Go has many folk without much iOS/Unity 
 To help others get to experimenting, this guide walks through installing the iOS 11 beta on your phone or tablet, building a basic ARKit demo, and setting up Unity to build more advanced apps and games.
 
 https://github.com/kylebrussell/ARoniOS/wiki/Getting-started-with-ARKit-on-iOS-11
+-------------------------------------------------------------------------------
+## How I Built a Reverse Image Search with Machine Learning and TensorFlow
+I wanted to write up an end-to-end description of what it’s like to build a machine learning app, and more specifically, how to make your own reverse image search. For this demo, the work is ⅓ data munging/setup, ⅓ model development and ⅓ app development.
+
+At a high-level, I use TensorFlow to create an autoencoder, train it on a bunch of images, use the trained model to find related images, and display them with a Flask app.
+
+In this first post, I’m going to go over my environment and project setup and do a little bit of scaffolding. Ready? Let’s get started.
+
+https://www.codementor.io/jimmfleming/how-i-built-a-reverse-image-search-with-machine-learning-and-tensorflow-part-1-8dje8gjm9
