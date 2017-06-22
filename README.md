@@ -297,3 +297,10 @@ At a high-level, I use TensorFlow to create an autoencoder, train it on a bunch 
 In this first post, I’m going to go over my environment and project setup and do a little bit of scaffolding. Ready? Let’s get started.
 
 https://www.codementor.io/jimmfleming/how-i-built-a-reverse-image-search-with-machine-learning-and-tensorflow-part-1-8dje8gjm9
+
+-------------------------------------------------------------------------------
+
+## Database of Structural Propensities of Proteins
+dspp-keras is a Keras integration for Database of Structural Propensities of Proteins, which provides amino acid sequences of 7200+ unrelated proteins with their propensities to form secondary structures or stay disordered.
+
+https://github.com/PeptoneInc/dspp-keras
