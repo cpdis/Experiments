@@ -297,3 +297,22 @@ At a high-level, I use TensorFlow to create an autoencoder, train it on a bunch 
 In this first post, I’m going to go over my environment and project setup and do a little bit of scaffolding. Ready? Let’s get started.
 
 https://www.codementor.io/jimmfleming/how-i-built-a-reverse-image-search-with-machine-learning-and-tensorflow-part-1-8dje8gjm9
+
+-------------------------------------------------------------------------------
+
+## iOS 11: Machine Learning for everyone
+
+Machine learning in iOS 11 and macOS 10.13
+
+http://machinethink.net/blog/ios-11-machine-learning-for-everyone/
+
+-------------------------------------------------------------------------------
+
+## Supercharge your Computer Vision models with the TensorFlow Object Detection API
+
+
+At Google, we develop flexible state-of-the-art machine learning (ML) systems for computer vision that not only can be used to improve our products and services, but also spur progress in the research community. Creating accurate ML models capable of localizing and identifying multiple objects in a single image remains a core challenge in the field, and we invest a significant amount of time training and experimenting with these systems.
+
+At Google, we develop flexible state-of-the-art machine learning (ML) systems for computer vision that not only can be used to improve our products and services, but also spur progress in the research community. Creating accurate ML models capable of localizing and identifying multiple objects in a single image remains a core challenge in the field, and we invest a significant amount of time training and experimenting with these systems.
+
+https://research.googleblog.com/2017/06/supercharge-your-computer-vision-models.html
