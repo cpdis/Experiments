@@ -332,6 +332,9 @@ This means that you need to formulate the problem, design the solution, find the
 Keep reading if you want to improve your CV by using a data science project, find ideas for a university project, or just practice in a particular domain of machine learning.
 
 https://blog.statsbot.co/data-scientist-resume-projects-806a74388ae6
+
+-------------------------------------------------------------------------------
+
 ## Database of Structural Propensities of Proteins
 dspp-keras is a Keras integration for Database of Structural Propensities of Proteins, which provides amino acid sequences of 7200+ unrelated proteins with their propensities to form secondary structures or stay disordered.
 
