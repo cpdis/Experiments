@@ -316,3 +316,19 @@ At Google, we develop flexible state-of-the-art machine learning (ML) systems fo
 At Google, we develop flexible state-of-the-art machine learning (ML) systems for computer vision that not only can be used to improve our products and services, but also spur progress in the research community. Creating accurate ML models capable of localizing and identifying multiple objects in a single image remains a core challenge in the field, and we invest a significant amount of time training and experimenting with these systems.
 
 https://research.googleblog.com/2017/06/supercharge-your-computer-vision-models.html
+
+-------------------------------------------------------------------------------
+
+## Data Scientist Resume Projects
+
+Data scientists are one of the most hirable specialists today, but it’s not so easy to enter this profession without a “Projects” field in your resume. You need experience to get the job, and you need the job to get the experience. Seems like a vicious circle, right?
+
+Statsbot’s data scientist Denis Semenenko wrote this article to help everyone with making the first simple, but yet illustrative data science projects which can take less than a week of work time.
+
+The great advantage of these projects is that each of them is a full-stack data science problem.
+
+This means that you need to formulate the problem, design the solution, find the data, master the technology, build a machine learning model, evaluate the quality, and maybe wrap it into a simple UI. This is a more diverse approach than, for example, Kaggle competition or Coursera lessons (but they are quite good too!).
+
+Keep reading if you want to improve your CV by using a data science project, find ideas for a university project, or just practice in a particular domain of machine learning.
+
+https://blog.statsbot.co/data-scientist-resume-projects-806a74388ae6
