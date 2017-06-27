@@ -339,3 +339,17 @@ https://blog.statsbot.co/data-scientist-resume-projects-806a74388ae6
 dspp-keras is a Keras integration for Database of Structural Propensities of Proteins, which provides amino acid sequences of 7200+ unrelated proteins with their propensities to form secondary structures or stay disordered.
 
 https://github.com/PeptoneInc/dspp-keras
+
+-------------------------------------------------------------------------------
+
+## Keras Visualization
+keras-vis is a high-level toolkit for visualizing and debugging your trained keras neural net models. Currently supported visualizations include:
+
+- Activation maximization
+- Saliency maps
+- Class activation maps
+- All visualizations by default support N-dimensional image inputs. i.e., it generalizes to N-dim image inputs to your model.
+
+The toolkit generalizes all of the above as energy minimization problems with a clean, easy to use, and extendable interface. Compatible with both theano and tensorflow backends with 'channels_first', 'channels_last' data format.
+
+https://github.com/raghakot/keras-vis
