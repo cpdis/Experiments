@@ -339,3 +339,10 @@ https://blog.statsbot.co/data-scientist-resume-projects-806a74388ae6
 dspp-keras is a Keras integration for Database of Structural Propensities of Proteins, which provides amino acid sequences of 7200+ unrelated proteins with their propensities to form secondary structures or stay disordered.
 
 https://github.com/PeptoneInc/dspp-keras
+
+-------------------------------------------------------------------------------
+
+## Artificial Intelligence Complete Lectures
+Prof. Patrick Henry Winston introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of this course, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective.
+
+http://artificialbrain.xyz/artificial-intelligence-complete-lectures-01-23/
