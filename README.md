@@ -346,3 +346,28 @@ https://github.com/PeptoneInc/dspp-keras
 Prof. Patrick Henry Winston introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of this course, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective.
 
 http://artificialbrain.xyz/artificial-intelligence-complete-lectures-01-23/
+## Keras Visualization
+keras-vis is a high-level toolkit for visualizing and debugging your trained keras neural net models. Currently supported visualizations include:
+
+- Activation maximization
+- Saliency maps
+- Class activation maps
+- All visualizations by default support N-dimensional image inputs. i.e., it generalizes to N-dim image inputs to your model.
+
+The toolkit generalizes all of the above as energy minimization problems with a clean, easy to use, and extendable interface. Compatible with both theano and tensorflow backends with 'channels_first', 'channels_last' data format.
+
+https://github.com/raghakot/keras-vis
+
+-------------------------------------------------------------------------------
+
+## An Overview of Multi-task Learning in Deep Neural Networks
+In Machine Learning (ML), we typically care about optimizing for a particular metric, whether this is a score on a certain benchmark or a business KPI. In order to do this, we generally train a single model or an ensemble of models to perform our desired task. We then fine-tune and tweak these models until their performance no longer increases. While we can generally achieve acceptable performance this way, by being laser-focused on our single task, we ignore information that might help us do even better on the metric we care about. Specifically, this information comes from the training signals of related tasks. By sharing representations between related tasks, we can enable our model to generalize better on our original task. This approach is called Multi-Task Learning (MTL) and will be the topic of this blog post.
+
+http://sebastianruder.com/multi-task/
+
+-------------------------------------------------------------------------------
+
+## Style Transfer
+Implementation of original style transfer paper (https://arxiv.org/abs/1508.06576).
+
+https://github.com/slavivanov/Style-Tranfer
