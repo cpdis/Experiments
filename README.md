@@ -367,3 +367,19 @@ http://sebastianruder.com/multi-task/
 Implementation of original style transfer paper (https://arxiv.org/abs/1508.06576).
 
 https://github.com/slavivanov/Style-Tranfer
+
+-------------------------------------------------------------------------------
+
+## Not Hot Dog Classifier
+Do you watch HBO's silicon valley? Because I do and I was inspired by Mr. Jian-Yang to make my own not hotdog classifier
+
+"What would you say if I told you there is a app on the market that tell you if you have a hotdog or not a hotdog. It is very good and I do not want to work on it any more. You can hire someone else." - Jian-Yang , 2017
+
+https://github.com/kmather73/NotHotdog-Classifier
+
+-------------------------------------------------------------------------------
+
+## Using convolutional neural nets to detect facial keypoints tutorial
+This is a hands-on tutorial on deep learning. Step by step, we'll go about building a solution for the Facial Keypoint Detection Kaggle challenge. The tutorial introduces Lasagne, a new library for building neural networks with Python and Theano. We'll use Lasagne to implement a couple of network architectures, talk about data augmentation, dropout, the importance of momentum, and pre-training. Some of these methods will help us improve our results quite a bit.
+
+http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/

@@ -1,10 +1,15 @@
+---
 _Title_: PathNet: Evolution Channels Gradient Descent in Super Neural Networks
-_Author(s)_: 
-Chrisantha Fernando, Dylan Banarse, Charles Blundell, Yori Zwols, David Ha†, Andrei A. Rusu, Alexander Pritzel, Daan Wierstra; Google DeepMind
+
+_Author(s)_: Chrisantha Fernando, Dylan Banarse, Charles Blundell, Yori Zwols, David Ha†, Andrei A. Rusu, Alexander Pritzel, Daan Wierstra; Google DeepMind
+
 _Keywords_: giant networks, path evolution algorithm, evolution and learning, continual learning, transfer learning, multitask learning, basal ganglia
+
 _Start_: 6/28/17
+
 _End_:
- 
+---
+
 ## Summary 📃
 PathNet is a new deep learning architecture that combines modular deep learning, meta-learning, and reinforcement learning. From the paper:
 > For artificial general intelligence (AGI) it would be efficient if multiple users trained the same giant neural network, permitting parameter reuse, without catastrophic forgetting. PathNet is a first step in this direction. It is a neural network algorithm that uses agents embedded in the neural network whose task is to discover which parts of the network to re-use for new tasks.  
