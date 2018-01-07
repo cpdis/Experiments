@@ -342,6 +342,10 @@ https://github.com/PeptoneInc/dspp-keras
 
 -------------------------------------------------------------------------------
 
+## Artificial Intelligence Complete Lectures
+Prof. Patrick Henry Winston introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of this course, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective.
+
+http://artificialbrain.xyz/artificial-intelligence-complete-lectures-01-23/
 ## Keras Visualization
 keras-vis is a high-level toolkit for visualizing and debugging your trained keras neural net models. Currently supported visualizations include:
 
@@ -367,6 +371,7 @@ http://sebastianruder.com/multi-task/
 Implementation of original style transfer paper (https://arxiv.org/abs/1508.06576).
 
 https://github.com/slavivanov/Style-Tranfer
+<<<<<<< HEAD
 
 -------------------------------------------------------------------------------
 
@@ -383,3 +388,5 @@ https://github.com/kmather73/NotHotdog-Classifier
 This is a hands-on tutorial on deep learning. Step by step, we'll go about building a solution for the Facial Keypoint Detection Kaggle challenge. The tutorial introduces Lasagne, a new library for building neural networks with Python and Theano. We'll use Lasagne to implement a couple of network architectures, talk about data augmentation, dropout, the importance of momentum, and pre-training. Some of these methods will help us improve our results quite a bit.
 
 http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/
+=======
+>>>>>>> 247a7421839e3481c45bf5b89d4c588af4f77696
