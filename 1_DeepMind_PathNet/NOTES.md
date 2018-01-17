@@ -51,11 +51,25 @@ PathNet is a new deep learning architecture that combines modular deep learning,
 	See figures at the end of the paper.
 7. Summarize each result
 	- Binary MNIST classification
-		\-  
+		- Helps speed up learning in the classification task (mean time to solution = 167 generations versus 229 by fine tuning).
+		- Learns in fewer generations than fine tuning and independent learning implementations.
+		- Speedup ratio compared to independent learning was 1.18.
+		- Speedup is obtained in determing when and when there shouldn't be overlap
 	- CIFAR and SVHN
+		- Both CIFAR and SVHN are learned faster when learned second rather than first
 	- Atari games
+		- Found that PathNet was superior to fine tuning in which a hyperparamter sweep was performed using learning rates and entropy costs.
+		- Several hyperparamets were investigated for PathNet: evaluation time, mutation rate, and tournament size.
+		- An optimal combination of tournament size and mutation rate was found for PathNet that allowed for rapid convergence.
+		- Speedup of 1.33 versus 1.16 for fine tuning.
 	- Labyrinth games
+		- Three labyrinth games were tested, ```lt_chasm```, ```seekavoid_arena```, and ```stairway_to_melon```.
+		- For fine tuning a hyperparameter sweep for mutation rates, module dupliation rates, and tournament size was used. The learning rate, entropy cost, and evaluation time were fixed.
+		- PathNet learns the second task faster than fine tuning for transfer to ```lt_chasm``` and transfer from ```lt_chasm``` to ```seekavoid_arena```. PathNet also performs better when learning ```stairway_to_melon``` and ```seekavoid_arena``` from scratch.
+		- Interestingly, when transferring to ```lt_chasm```, both fine tuning and PathNet perform worse than de novo learning. 
+		- Speedup for fine tuning is 1.0 versus 1.26 for PathNet (this is skewed by the good performance of transferring from ```seekavoid_arena``` to ```stairway_to_melon```).
 8. Do the results answer the specific questions/goals?
+	Yes, they show that in most cases PathNet improves performance.
 9. Read the conclusion/discussion section
 	☑️
 10. Read the abstract
