@@ -371,7 +371,6 @@ http://sebastianruder.com/multi-task/
 Implementation of original style transfer paper (https://arxiv.org/abs/1508.06576).
 
 https://github.com/slavivanov/Style-Tranfer
-<<<<<<< HEAD
 
 -------------------------------------------------------------------------------
 
@@ -388,5 +387,361 @@ https://github.com/kmather73/NotHotdog-Classifier
 This is a hands-on tutorial on deep learning. Step by step, we'll go about building a solution for the Facial Keypoint Detection Kaggle challenge. The tutorial introduces Lasagne, a new library for building neural networks with Python and Theano. We'll use Lasagne to implement a couple of network architectures, talk about data augmentation, dropout, the importance of momentum, and pre-training. Some of these methods will help us improve our results quite a bit.
 
 http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/
-=======
->>>>>>> 247a7421839e3481c45bf5b89d4c588af4f77696
+
+-------------------------------------------------------------------------------
+
+## Deep Learning Scaling is Predictable, Empirically
+
+Deep learning (DL) creates impactful advances following a virtuous recipe: model architecture search, creating large training data sets, and scaling computation. It is widely believed that growing training sets and models should improve accuracy and result in better products. As DL application domains grow, we would like a deeper understanding of the relationships between training set size, computational scale, and model accuracy improvements to advance the state-of-the-art. 
+
+https://arxiv.org/abs/1712.00409
+
+-------------------------------------------------------------------------------
+
+## Welcoming the Era of Deep Neuroevolution
+
+In the field of deep learning, deep neural networks (DNNs) with many layers and millions of connections are now trained routinely through stochastic gradient descent (SGD). Many assume that the ability of SGD to efficiently compute gradients is essential to this capability. However, we are releasing a suite of five papers that support the emerging realization that neuroevolution, where neural networks are optimized through evolutionary algorithms, is also an effective method to train deep neural networks for reinforcement learning (RL) problems. Uber has a multitude of areas where machine learning can improve its operations, and developing a broad range of powerful learning approaches that includes neuroevolution will help us achieve our mission of developing safer and more reliable transportation solutions.
+
+https://eng.uber.com/deep-neuroevolution/
+
+-------------------------------------------------------------------------------
+
+## wav2letter
+
+wav2letter is a simple and efficient end-to-end Automatic Speech Recognition (ASR) system from Facebook AI Research. The original authors of this implementation are Ronan Collobert, Christian Puhrsch, Gabriel Synnaeve, Neil Zeghidour, and Vitaliy Liptchinsky.
+
+https://github.com/facebookresearch/wav2letter
+
+-------------------------------------------------------------------------------
+
+## How To Create Data Products That Are Magical Using Sequence-to-Sequence Models
+
+A tutorial on how to summarize text and generate features from Github Issues using deep learning with Keras and TensorFlow.
+
+https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8
+
+-------------------------------------------------------------------------------
+
+## Autonomous Driving using End-to-End Deep Learning: an AirSim tutorial
+
+In this tutorial, you will learn how to train and test an end-to-end deep learning model for autonomous driving using data collected from the AirSim simulation environment. You will train a model to learn how to steer a car through a portion of the Mountain/Landscape map in AirSim using a single front facing webcam for visual input. Such a task is usually considered the "hello world" of autonomous driving, but after finishing this tutorial you will have enough background to start exploring new ideas on your own. Through the length of this tutorial, you will also learn some practical aspects and nuances of working with end-to-end deep learning methods.
+
+https://github.com/Microsoft/AutonomousDrivingCookbook/tree/master/AirSimE2EDeepLearning
+
+-------------------------------------------------------------------------------
+
+## Cryptocurrency Data Analysis Part I: Obtaining and Playing with Data of Digital Assets
+
+The word “cryptocurrency” has taken the financial world by storm, and yet there is a lack of formal and open research being conducted on the data of the digital assets. Personally, being a cryptocurrency investor and a data scientist, I am fascinated by studying this nascent asset class under the microscope of data analysis and machine learning tools in order to guide my investment decisions.
+These series of tutorials will hopefully bridge the gap between data scientists and realm of cryptocurrency; vice versa, non technical crypto traders will be able to use this as an opportunity to acquire some directly applicable coding skills. Our data will come from Poloniex.
+
+https://medium.com/@eliquinox/cryptocurrency-data-analysis-part-i-obtaining-and-playing-with-data-of-digital-assets-2a963a72703b
+
+-------------------------------------------------------------------------------
+
+## Build your own self driving (toy) car
+
+We’ll take Deep Neural Network described in my Behavior Cloning project from Udacity Self Driving Car nano degree course and run it on a remote controlled (RC) race car using Robotic Operating System (ROS) as a middle-ware.
+
+https://towardsdatascience.com/build-your-own-self-driving-toy-car-ad00a6804b53
+
+-------------------------------------------------------------------------------
+
+## Over 150 of the Best Machine Learning, NLP, and Python Tutorials I’ve Found
+
+To help others that are going through a similar discovery process, I’ve put together a list of the best tutorial content that I’ve found so far. It’s by no means an exhaustive list of every ML-related tutorial on the web — that would be overwhelming and duplicative. Plus, there is a bunch of mediocre content out there. My goal was to link to the best tutorials I found on the important subtopics within machine learning and NLP.
+
+https://unsupervisedmethods.com/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78
+
+-------------------------------------------------------------------------------
+
+## Tensorlayer
+
+TensorLayer is a deep learning and reinforcement learning library based on TensorFlow. It provides rich data processing, model training and serving modules to help both researchers and engineers build practical machine learning workflows.
+
+https://github.com/tensorlayer/tensorlayer
+
+-------------------------------------------------------------------------------
+
+## europilot
+
+Europilot is an open source project that leverages the popular Euro Truck Simulator(ETS2) to develop self-driving algorithms.
+
+https://github.com/marsauto/europilot
+
+-------------------------------------------------------------------------------
+
+## Understanding and Implementing CycleGAN in TensorFlow
+
+The paper we are going to implement is titled "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks". The title is quite a mouthful and it helps to look at each phrase individually before trying to understand the model all at once.
+
+https://hardikbansal.github.io/CycleGANBlog/
+
+-------------------------------------------------------------------------------
+
+## Real-time object detection with YOLO
+
+In this blog post I’ll describe what it took to get the “tiny” version of YOLOv2 running on iOS using Metal Performance Shaders.
+
+http://machinethink.net/blog/object-detection-with-yolo/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue
+
+-------------------------------------------------------------------------------
+
+## Exploring LSTMs
+
+The first time I learned about LSTMs, my eyes glazed over.
+
+Not in a good, jelly donut kind of way.
+
+It turns out LSTMs are a fairly simple extension to neural networks, and they're behind a lot of the amazing achievements deep learning has made in the past few years. So I'll try to present them as intuitively as possible – in such a way that you could have discovered them yourself.
+
+http://blog.echen.me/2017/05/30/exploring-lstms/
+
+-------------------------------------------------------------------------------
+
+## Deep Learning Is Not Good Enough, We Need Bayesian Deep Learning for Safe AI
+
+Understanding what a model does not know is a critical part of many machine learning systems. Unfortunately, today’s deep learning algorithms are usually unable to understand their uncertainty. 
+
+https://alexgkendall.com/computer_vision/bayesian_deep_learning_for_safe_ai/
+
+-------------------------------------------------------------------------------
+
+## A 2017 Guide to Semantic Segmentation with Deep Learning
+
+In this post, I review the literature on semantic segmentation. Most research on semantic segmentation use natural/real world image datasets. Although the results are not directly applicable to medical images, I review these papers because research on the natural images is much more mature than that of medical images.
+
+http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Deep%20Learning%20Weekly
+
+-------------------------------------------------------------------------------
+
+## Interpreting neurons in an LSTM network
+
+A few months ago, we showed how effectively an LSTM network can perform text transliteration.
+
+For humans, transliteration is a relatively easy and interpretable task, so it’s a good task for interpreting what the network is doing, and whether it is similar to how humans approach the same task.
+
+In this post we’ll try to understand: What do individual neurons of the network actually learn? How are they used to make decisions?
+
+http://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Deep%20Learning%20Weekly
+
+-------------------------------------------------------------------------------
+
+## Neural Machine Translation (seq2seq) Tutorial
+
+Sequence-to-sequence (seq2seq) models (Sutskever et al., 2014, Cho et al., 2014) have enjoyed great success in a variety of tasks such as machine translation, speech recognition, and text summarization. This tutorial gives readers a full understanding of seq2seq models and shows how to build a competitive seq2seq model from scratch. We focus on the task of Neural Machine Translation (NMT) which was the very first testbed for seq2seq models with wild success. 
+
+https://github.com/tensorflow/nmt
+
+-------------------------------------------------------------------------------
+
+## Learning the Enigma with Recurrent Neural Networks
+
+Recurrent Neural Networks (RNNs) are Turing-complete. In other words, they can approximate any function. As a tip of the hat to Alan Turing, let’s see if we can use them to learn the Nazi Enigma.
+
+https://greydanus.github.io/2017/01/07/enigma-rnn/
+
+-------------------------------------------------------------------------------
+
+## 100 days of algorithms
+
+I set the challenge for myself to implement algorithm by algorithm, day by day, until the number reaches 100.
+
+https://medium.com/100-days-of-algorithms/
+
+https://github.com/coells/100days
+
+-------------------------------------------------------------------------------
+
+## An end to end implementation of a Machine Learning pipeline
+
+As a researcher on Computer Vision, I come across new blogs and tutorials on ML (Machine Learning) every day. However, most of them are just focussing on introducing the syntax and the terminology relavant to the field. For example - a 15 minute tutorial on Tensorflow using MNIST dataset, or a 10 minute intro to Deep Learning in Keras on Imagenet.
+
+While people are able to copy paste and run the code in these tutorials and feel that working in ML is really not that hard, it doesn't help them at all in using ML for their own purposes. For example, they never introduce you to how you can run the same algorithm on your own dataset. Or, how do you get the dataset if you want to solve a problem. Or, which algorithms do you use - Conventional ML, or Deep Learning? How do you evaluate your models performance? How do you write your own model, as opposed to choosing a ready made architecture? All these form fundamental steps in any Machine Learning pipeline, and it is these steps that take most of our time as ML practitioners.
+
+This tutorial breaks down the whole pipeline, and leads the reader through it step by step in an hope to empower you to actually use ML, and not just feel that it was not too hard. Needless to say, this will take much longer than 15-30 minutes. I believe a weekend would be a good enough estimate.
+
+https://spandan-madan.github.io/DeepLearningProject/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Deep%20Learning%20Weekly
+
+-------------------------------------------------------------------------------
+
+## Reinforcement learning for complex goals, using TensorFlow
+
+Reinforcement learning (RL) is about training agents to complete tasks. We typically think of this as being able to accomplish some goal. Take, for example, a robot we might want to train to open a door. Reinforcement learning can be used as a framework for teaching the robot to open the door by allowing it to learn from trial and error. But what if we are interested in having our agent solve not just one goal, but a set that might vary over time?
+
+In this article, and the accompanying notebook available on GitHub, I am going to introduce and walk through both the traditional reinforcement learning paradigm in machine learning as well as a new and emerging paradigm for extending reinforcement learning to allow for complex goals that vary over time.
+
+https://www.oreilly.com/ideas/reinforcement-learning-for-complex-goals-using-tensorflow?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Deep%20Learning%20Weekly
+
+-------------------------------------------------------------------------------
+
+## Building a Music Recommender with Deep Learning
+
+Wouldn’t it be cool if you could discover music that was released a few years ago that sounds similar to a new song that you like? Surely Juno are missing out on potential sales by not offering this type of feature on their website.
+
+After being inspired by a blog post I’d read recently from somebody who had classified music genres for songs in their own music library, I decided to see if I could adapt that methodology to build a music recommender.
+
+http://mattmurray.net/building-a-music-recommender-with-deep-learning/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Deep%20Learning%20Weekly
+
+-------------------------------------------------------------------------------
+
+## Deep Learning - The Straight Dope
+
+This repo contains an incremental sequence of notebooks designed to teach deep learning, Apache MXNet (incubating), and the gluon interface. Our goal is to leverage the strengths of Jupyter notebooks to present prose, graphics, equations, and code together in one place. If we’re successful, the result will be a resource that could be simultaneously a book, course material, a prop for live tutorials, and a resource for plagiarising (with our blessing) useful code. To our knowledge there’s no source out there that teaches either (1) the full breadth of concepts in modern deep learning or (2) interleaves an engaging textbook with runnable code. We’ll find out by the end of this venture whether or not that void exists for a good reason.
+
+http://gluon.mxnet.io/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Deep%20Learning%20Weekly
+
+-------------------------------------------------------------------------------
+
+## Yes you should understand backprop
+
+When we offered CS231n (Deep Learning class) at Stanford, we intentionally designed the programming assignments to include explicit calculations involved in backpropagation on the lowest level. The students had to implement the forward and the backward pass of each layer in raw numpy. Inevitably, some students complained on the class message boards:
+
+“Why do we have to write the backward pass when frameworks in the real world, such as TensorFlow, compute them for you automatically?”
+
+This is seemingly a perfectly sensible appeal - if you’re never going to write backward passes once the class is over, why practice writing them? Are we just torturing the students for our own amusement? Some easy answers could make arguments along the lines of “it’s worth knowing what’s under the hood as an intellectual curiosity”, or perhaps “you might want to improve on the core algorithm later”, but there is a much stronger and practical argument, which I wanted to devote a whole post to:
+
+> The problem with Backpropagation is that it is a leaky abstraction.
+
+https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
+
+-------------------------------------------------------------------------------
+
+## Using neural nets to recognize handwritten digits
+
+Neural Networks and Deep Learning is a free online book. The book will teach you about:
+
+- Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data
+
+- Deep learning, a powerful set of techniques for learning in neural networks
+
+Neural networks and deep learning currently provide the best solutions to many problems in image recognition, speech recognition, and natural language processing. This book will teach you many of the core concepts behind neural networks and deep learning.
+
+http://neuralnetworksanddeeplearning.com/chap1.html
+
+-------------------------------------------------------------------------------
+
+## Visual Information Theory
+
+I love the feeling of having a new way to think about the world. I especially love when there’s some vague idea that gets formalized into a concrete concept. Information theory is a prime example of this.
+
+Information theory gives us precise language for describing a lot of things. How uncertain am I? How much does knowing the answer to question A tell me about the answer to question B? How similar is one set of beliefs to another? I’ve had informal versions of these ideas since I was a young child, but information theory crystallizes them into precise, powerful ideas. These ideas have an enormous variety of applications, from the compression of data, to quantum physics, to machine learning, and vast fields in between.
+
+Unfortunately, information theory can seem kind of intimidating. I don’t think there’s any reason it should be. In fact, many core ideas can be explained completely visually!
+
+http://colah.github.io/posts/2015-09-Visual-Information/
+
+-------------------------------------------------------------------------------
+
+## Constrained Policy Optimization
+
+Deep reinforcement learning (RL) has enabled some remarkable achievements in hard control problems: with deep RL, agents have learned to play video games directly from pixels, to control robots in simulation and in the real world, to learn object manipulation from demonstrations, and even to beat human grandmasters at Go. Hopefully, we’ll soon be able to take deep RL out of the lab and put it into practical, everyday technologies, like UAV control and household robots. But before we can do that, we have to address the most important concern: safety.
+
+http://bair.berkeley.edu/blog/2017/07/06/cpo/
+
+-------------------------------------------------------------------------------
+
+## An Empirical Study of AI Population Dynamics with Million-agent Reinforcement Learning
+
+In this paper, we conduct an empirical study on discovering the ordered collective dynamics obtained by a population of artificial intelligence (AI) agents. Our intention is to put AI agents into a simulated natural context, and then to understand their induced dynamics at the population level. In particular, we aim to verify if the principles developed in the real world could also be used in understanding an artificially-created intelligent population. To achieve this, we simulate a large-scale predator-prey world, where the laws of the world are designed by only the findings or logical equivalence that have been discovered in nature. We endow the agents with the intelligence based on deep reinforcement learning, and scale the population size up to millions. Our results show that the population dynamics of AI agents, driven only by each agent's individual self interest, reveals an ordered pattern that is similar to the Lotka-Volterra model studied in population biology. We further discover the emergent behaviors of collective adaptations in studying how the agents' grouping behaviors will change with the environmental resources. Both of the two findings could be explained by the self-organization theory in nature.
+
+https://arxiv.org/abs/1709.04511
+
+-------------------------------------------------------------------------------
+
+## Meet Horovod: Uber’s Open Source Distributed Deep Learning Framework for TensorFlow
+
+Last month, Uber Engineering introduced Michelangelo, an internal ML-as-a-service platform that democratizes machine learning and makes it easy to build and deploy these systems at scale. In this article, we pull back the curtain on Horovod, an open source component of Michelangelo’s deep learning toolkit which makes it easier to start—and speed up—distributed deep learning projects with TensorFlow.
+
+https://eng.uber.com/horovod/
+
+-------------------------------------------------------------------------------
+
+## Introduction to web scraping with Python
+
+Data is the core of predictive modeling, visualization, and analytics. Unfortunately, the needed data is not always readily available to the user, it is most often unstructured. The biggest source of data is the Internet, and with programming, we can extract and process the data found on the Internet for our use – this is called web scraping. Web scraping allows us to extract data from websites and to do what we please with it. In this post, I will show you how to scrape a website with only a few of lines of code in Python.
+
+https://datawhatnow.com/introduction-web-scraping-python/
+
+-------------------------------------------------------------------------------
+
+## How to Find Wally with a Neural Network
+
+Deep learning provides yet another way to solve the Where’s Wally puzzle problem. But unlike traditional image processing computer vision methods, it works using only a handful of labelled examples that include the location of Wally in an image.
+
+https://towardsdatascience.com/how-to-find-wally-neural-network-eddbb20b0b90
+
+-------------------------------------------------------------------------------
+
+## Using Machine Learning to Predict the Weather: Part 1
+
+This is the first article of a multi-part series on using Python and Machine Learning to build models to predict weather temperatures based off data collected from Weather Underground. The series will be comprised of three different articles describing the major aspects of a Machine Learning project. The topics to be covered are:
+
+1. Data collection and processing (this article)
+
+2. Linear regression models (article 2)
+
+3. Neural network models (article 3)
+
+The data used in this series will be collected from Weather Underground's free tier API web service. I will be using the requests library to interact with the API to pull in weather data since 2015 for the city of Lincoln, Nebraska. Once collected, the data will need to be process and aggregated into a format that is suitable for data analysis, and then cleaned.
+
+http://stackabuse.com/using-machine-learning-to-predict-the-weather-part-1/
+
+-------------------------------------------------------------------------------
+
+## Introduction to Gaussian Processes - Part I
+
+Gaussian processes may not be at the center of current machine learning hype but are still used at the forefront of research – they were recently seen automatically tuning the MCTS hyperparameters for AlphaGo Zero for instance. They manage to be very easy to use while providing rich modeling capacity and uncertainty estimates.
+
+However they can be pretty hard to grasp, especially if you’re used to the type of models we see a lot of in deep learning. So hopefully this guide can fix that! It assumes a fairly minimal ML background and I aimed for a more visual & intuitive introduction without totally abandoning the theory. To get the most out of it I recommend downloading the notebook and experimenting with all the code!
+
+http://bridg.land/posts/gaussian-processes-1
+
+-------------------------------------------------------------------------------
+
+## How Docker Can Help You Become A More Effective Data Scientist
+
+For the past 5 years, I have heard lots of buzz about docker containers. It seemed like all my software engineering friends are using them for developing applications. I wanted to figure out how this technology could make me more effective but I found tutorials online either too detailed: elucidating features I would never use as a data scientist, or too shallow: not giving me enough information to help me understand how to be effective with Docker quickly.
+
+https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5
+
+-------------------------------------------------------------------------------
+
+## Deep Learning for Chatbots, Part 2 – Implementing a Retrieval-Based Model in Tensorflow
+
+In this post we’ll implement a retrieval-based bot. Retrieval-based models have a repository of pre-defined responses they can use, which is unlike generative models that can generate responses they’ve never seen before. A bit more formally, the input to a retrieval-based model is a context c (the conversation up to this point) and a potential response r. The model outputs is a score for the response. To find a good response you would calculate the score for multiple responses and choose the one with the highest score.
+
+http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/
+
+-------------------------------------------------------------------------------
+
+## Colorizing B&W Photos with Neural Networks
+
+Earlier this year, Amir Avni used neural networks to troll the subreddit /r/Colorization - a community where people colorize historical black and white images manually using Photoshop. They were astonished with Amir’s deep learning bot - what could take up to a month of manual labour could now be done in just a few seconds.
+
+I was fascinated by Amir’s neural network, so I reproduced it and documented the process.
+
+https://blog.floydhub.com/colorizing-b&w-photos-with-neural-networks/
+
+-------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+
