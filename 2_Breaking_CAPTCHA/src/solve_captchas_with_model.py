@@ -23,7 +23,7 @@ model = load_model(MODEL_FILENAME)
 # In the real world, you'd replace this section with code to grab a real
 # CAPTCHA image from a live website.
 captcha_image_files = list(paths.list_images(CAPTCHA_IMAGE_FOLDER))
-captcha_image_files = np.random.choice(captcha_image_files, size=(10,), replace=False)
+captcha_image_files = np.random.choice(captcha_image_files, size=(11,), replace=False)
 print(captcha_image_files)
 
 # loop over the image paths
@@ -111,3 +111,4 @@ for image_file in captcha_image_files:
     # Show the annotated image
     cv2.imshow("Output", output)
     cv2.waitKey(500) # Wait for a specified amount of time (in ms) before moving to the next image
+    cv2.imwrite("{}.png".format(captcha_text), output)

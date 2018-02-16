@@ -10,6 +10,7 @@ from keras.models import Sequential
 from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.layers.core import Flatten, Dense
 from helpers import resize_to_fit
+from keras.utils.vis_utils import plot_model
 
 
 LETTER_IMAGES_FOLDER = "extracted_letter_images"
@@ -78,15 +79,18 @@ model.add(Dense(500, activation="relu"))
 # Output layer with 32 nodes (one for each possible letter/number we predict)
 model.add(Dense(32, activation="softmax"))
 
+# Plot the model for visualization purposes
+plot_model(model, to_file='CAPTCHA_model.png', show_shapes=True, show_layer_names=True)
+
 # Ask Keras to build the TensorFlow model behind the scenes
 model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
 
 # Train the neural network
-model.fit(X_train, Y_train, validation_data=(X_test, Y_test), batch_size=32, epochs=10, verbose=1)
+# model.fit(X_train, Y_train, validation_data=(X_test, Y_test), batch_size=32, epochs=10, verbose=1)
 
 # Stop the timer after the model has been trained
 end = time.time()
 print("The elapsed training time is: ", end - start)
 
 # Save the trained model to disk
-model.save(MODEL_FILENAME)
+#model.save(MODEL_FILENAME)
